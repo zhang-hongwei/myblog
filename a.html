@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 1000px;
+            height: 100px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <div id = 'box'>123123</div>
+
+
+    <script>
+
+
+const target = document.querySelector('#box')
+
+target.addEventListener('click', ()=>{
+    console.log('l====>')
+    target.innerHTML = Number(Math.random()).toFixed(2)
+})
+
+// setTimeout(()=>{
+//     console.log("log=====>",1)
+//     target.innerHTML = '12'
+// },500)
+// setTimeout(()=>{
+//     console.log("log=====>",1)  
+//     target.innerHTML = '122'
+// },1000)
+// setTimeout(()=>{
+//     console.log("log=====>",1)
+//     target.innerHTML = '123323'
+// },1500)
+
+    </script>
+    
+</body>
+</html>
