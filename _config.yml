@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: zhw的博客
 subtitle: ''
 description: ''
 keywords:
@@ -103,3 +103,7 @@ theme: stellar
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+  language:
+  - zh-CN
+
