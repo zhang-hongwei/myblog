@@ -1,6 +1,6 @@
 ---
 title: Vue事件总线（EventBus）
-date: 2019-05-19 11:10:00
+date: 2018-10-20 21:10:00
 tags: vue
 ---
 
